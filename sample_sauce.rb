@@ -22,6 +22,7 @@ class BlogTests < Test::Unit::TestCase
 
         title = @driver.title()
         assert_equal(title, "Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More")
+        print "CHANGE"
     end
 
     def teardown
